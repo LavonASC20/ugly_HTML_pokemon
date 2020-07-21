@@ -1,0 +1,35 @@
+@font-face {
+    font-family: pokemon;
+    src: url('font/font.ttf');
+}
+body{
+    background-color: black;
+    font-family: "pokemon";
+    color: white;
+} 
+h1{
+    text-align: center;
+    color: gold;
+    background-color: rgb(24, 60, 168);
+}
+h2{
+    font-size: 85%;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: rgb(24, 60, 168);
+    padding: 3px;
+}
+.pokemon_images{
+    width: 20%;
+}
+#bulbasaur_container{
+    font-size: 85%;
+    background-color: rgb(152, 230, 152);
+}
+.list{
+    text-align: left;
+}
