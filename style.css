@@ -3,33 +3,98 @@
     src: url('font/font.ttf');
 }
 body{
+    margin: 15px;
     background-color: black;
-    font-family: "pokemon";
+    font-family: pokemon;
     color: white;
 } 
 h1{
     text-align: center;
-    color: gold;
-    background-color: rgb(24, 60, 168);
+    color: #FFCB06;
+    background-color:#2E549B;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 h2{
     font-size: 85%;
 }
-img{
+div{
+    margin: 0px;
+}
+img{  
     display: block;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    border: rgb(24, 60, 168);
+    border: solid rgb(37, 72, 177);
     padding: 3px;
 }
 .pokemon_images{
-    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black;
+    width: 15%;
 }
 #bulbasaur_container{
-    font-size: 85%;
-    background-color: rgb(152, 230, 152);
+    font-size: 73%;
+    background-color: #8CC58E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: -25px;
+    border: 1px solid #FDEFA6; 
 }
+#charmander_container{
+    font-size: 73%;
+    background-color:#F3B283;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: -25px;
+    border: 1px solid #FDEFA6; 
+}
+#squirtle_container{
+    font-size: 73%;
+    background-color: #8EC4CE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: -25px;
+    border: 1px solid #FDEFA6; 
+}
+
 .list{
     text-align: left;
+    font-size: 85%;
+    margin-left: 10px;
+    margin-bottom: -45px;
+}
+footer{
+    margin-left: 10px;
+    margin-bottom: 25px;
+    font-size: 55%;
+}
+.pokemon_description{
+    font-size: 85%;
+}
+h3{
+    font-size: 145%;
+}
+ul{
+    list-style-type: square;
+    margin-left: -18px;
 }
